@@ -139,11 +139,11 @@ const SignUp = ({ history, location }) => {
           />
           <div className='SignIn-button-continue-container'>
             <button type='submit' className='SignIn-button-continue'>
-              Continue with FR Store
+              Continue with IIEC
             </button>
           </div>
           <div className='SignIn-remember-forgot-cotainer '>
-            By joining I agree to receive emails from FR Store.
+            By joining I agree to receive emails from IIEC.
           </div>
           <div className='SignIn-join-now-button'>
             Already Joined?

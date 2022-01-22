@@ -75,7 +75,7 @@ const ProductScreen = ({ match, location }) => {
             </div>
           </div>
           <div className={styles.filter_option}>
-            <div className={styles.option_name}>Sold By FR Store</div>
+            <div className={styles.option_name}>Sold By IIEC</div>
             <div class='custom-control custom-switch'>
               <input
                 style={{ padding: "20px", height: "50px" }}

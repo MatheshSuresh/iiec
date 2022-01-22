@@ -23,7 +23,7 @@ const Footer = ({ children }) => {
                       <Link to='#'>Blog</Link>
                     </li>
                     <li>
-                      <Link to='#'>About FR Store</Link>
+                      <Link to='#'>About IIEC</Link>
                     </li>
                     <li>
                       <Link to='#'>FAQ</Link>
@@ -38,10 +38,10 @@ const Footer = ({ children }) => {
                 <div className='footer_links'>
                   <ul>
                     <li>
-                      <Link to='/tuition'>Sell products on FR Store</Link>
+                      <Link to='/tuition'>Sell products on IIEC</Link>
                     </li>
                     <li>
-                      <Link to='#'>Sell on FR Store Business</Link>
+                      <Link to='#'>Sell on IIEC Business</Link>
                     </li>
                     <li>
                       <Link to='#'>Become an Affiliate</Link>
@@ -119,7 +119,7 @@ const Footer = ({ children }) => {
               </Link>
             </div>
             <div className='copy-right'>
-              © 2021 FR Store.com Inc. or its affiliates
+              © 2021 IIEC.com Inc. or its affiliates
             </div>
             <div className='footer_second_col'>
               <div className='footer_title footer_title--row_two'>

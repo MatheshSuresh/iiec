@@ -179,7 +179,7 @@ export default function OrderScreen({ match }) {
                     ? "Order has been cancelled"
                     : order && order.isPaid
                     ? order.isDelivered
-                      ? "Your order has been delivered successfully. Thank you for purchasing from FR Store"
+                      ? "Your order has been delivered successfully. Thank you for purchasing from IIEC"
                       : "Your payment has been confirmed and your order is being shipped. You will most likely receive your order within 3-5 days."
                     : "Your order is pending. Admin is looking into your payment. Please wait a few minutes."}
                 </div>

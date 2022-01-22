@@ -26,7 +26,7 @@ const Footer = ({ children }) => {
               </Link>
             </div>
             <div className='copy-right'>
-              © 2021 FR Store.com Inc. or its affiliates
+              © 2021 IIEC.com Inc. or its affiliates
             </div>
             <div className='footer_second_col'>
               <div className='footer_title footer_title--row_two'>

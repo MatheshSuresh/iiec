@@ -139,7 +139,7 @@ const OtherSections = () => {
                       Book Your Covid 19 vaccine now
                     </div>
                     <div className={styles.sub_title}>
-                      Make an appointment for your free vaccine through FR Store
+                      Make an appointment for your free vaccine through IIEC
                     </div>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ const OtherSections = () => {
                       Book Your Covid 19 vaccine now
                     </div>
                     <div className={styles.sub_title}>
-                      Now Available at FR Store
+                      Now Available at IIEC
                     </div>
                   </div>
                 </div>

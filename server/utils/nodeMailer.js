@@ -15,7 +15,7 @@ export const mailRegister = (name, email) => {
     from: "frstorebd@gmail.com",
     to: email,
     subject: "User Registration",
-    html: `<p>Hello ${name}, You have successfully created an account in FR Store. Stay Tuned. Thank you </p>`,
+    html: `<p>Hello ${name}, You have successfully created an account in IIEC. Stay Tuned. Thank you </p>`,
     attachments: [
       {
         filename: "invoice-614be88ec618391b6041289b.pdf",

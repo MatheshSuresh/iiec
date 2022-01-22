@@ -45,11 +45,11 @@ const ProductCart = ({ product }) => {
           <div className={styles.top}>
             <div className={styles.soldby}>
               <span className={styles.light}>Sold By: </span>
-              FR Store
+              IIEC
             </div>
             <div className={styles.icon_box}>
               <LocalShippingIcon className={styles.icon}></LocalShippingIcon>
-              <div className={styles.icon_title}>Shipped By FR Store</div>
+              <div className={styles.icon_title}>Shipped By IIEC</div>
             </div>
           </div>
           <div className={styles.middle}>

@@ -34,7 +34,7 @@ const HomeScreen = () => {
           <section class='banner-section'>
             <div className='hero_section_container'>
               <div className='hero_section_sub_title'>Fashion Guide</div>
-              <div className='hero_section_title'>FR Store</div>
+              <div className='hero_section_title'>IIEC</div>
               <div className='hero_section_sub_title2'>
                 Shop the latest clothing, shoes, and handbags from top fashion
               </div>

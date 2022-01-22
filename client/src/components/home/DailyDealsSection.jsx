@@ -15,7 +15,7 @@ const DailyDealsSection = () => {
                   <div className='sign_in_button'>SIGN IN</div>
                 </Link>
                 <div className='sign_up_text'>
-                  New to FR Store? <Link to='/sign-up'>Sign Up</Link>
+                  New to IIEC? <Link to='/sign-up'>Sign Up</Link>
                 </div>
               </div>
               <div className='col-1_row-2'>

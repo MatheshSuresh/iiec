@@ -103,7 +103,7 @@ export const pdfTemp = ({
             <div class="grid-body">
               <div class="invoice-title">
                 <div class="row">
-                  <div class="col-xs-12 main_title">FR Store</div>
+                  <div class="col-xs-12 main_title">IIEC</div>
                 </div>
                 <br />
                 <div class="row">

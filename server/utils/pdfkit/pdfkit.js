@@ -61,7 +61,7 @@ function generateHeader(doc) {
     .font("Helvetica-Bold")
     .fillColor("#444444")
     .fontSize(28)
-    .text("FR Store", 50, 57)
+    .text("IIEC", 50, 57)
     .fontSize(10)
     .text("123 Main Street", 200, 65, { align: "right" })
     .text("New York, NY, 10025", 200, 80, { align: "right" })
@@ -114,7 +114,7 @@ export const pdf = (invoice, path) => {
 //   doc
 //     .fillColor("#444444")
 //     .fontSize(20)
-//     .text("FR Store", 110, 57)
+//     .text("IIEC", 110, 57)
 //     .fontSize(10)
 //     .text("123 Main Street", 200, 65, { align: "right" })
 //     .text("New York, NY, 10025", 200, 80, { align: "right" })
