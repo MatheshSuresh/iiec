@@ -1,0 +1,35 @@
+.product_description_container {
+  font-size: 13px;
+  font-weight: 400;
+  width: 625px;
+  margin-right: 10px;
+}
+.title {
+  font-size: 28px;
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
+}
+.ratings i {
+  color: #f39834;
+}
+.review_nums {
+  padding-left: 10px;
+  font-weight: 600;
+}
+.write_reviews {
+  font-size: 12px;
+  padding-left: 10px;
+}
+.shipping_details {
+  color: #1f61ad;
+  font-weight: 600;
+  font-style: italic;
+}
+.bold {
+  font-weight: 700;
+}
+.description {
+  padding: 5px 10px 0 0;
+  /* padding: 5px 0; */
+  line-height: 17.7px;
+}

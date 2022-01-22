@@ -1,0 +1,215 @@
+.daily-deals-section {
+  margin-top: 30px;
+  background: #f4f5f7;
+  height: 1030px;
+}
+.daily-deals-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: "Open Sans Condensed", "Open Sans", "San Serif";
+  font-weight: 700;
+}
+.daily-deals-title {
+  font-family: "Open Sans Condensed";
+  font-size: 36px;
+  font-weight: 300;
+  padding-top: 40px;
+  letter-spacing: 1px;
+  padding: 20px;
+  /* font-size: 36px;
+  font-weight: 600; */
+  /* text-align: center; */
+}
+
+.card_row {
+  display: flex;
+  /* min-width: 1400px; */
+}
+/* Regular Column Work Start */
+
+.card_col:nth-child(2),
+.card_col:nth-child(3) {
+  flex: 1;
+  background: #fff;
+  height: 406px;
+  margin: 0 10px 0 10px;
+  max-width: 335px;
+}
+.card_image {
+  display: flex;
+  justify-content: center;
+}
+.card_product_image {
+  padding: 0 10px;
+  height: 176px;
+  width: 304px;
+  object-fit: contain;
+}
+.card_rating {
+  padding: 10px 0 10px 20px;
+}
+.card_rating i {
+  color: #f39834;
+}
+.card_description {
+  padding: 0 20px;
+}
+.card_col:nth-child(4) {
+  flex: 1;
+  background: #fff;
+  height: 406px;
+  max-width: 335px;
+  margin: 0 0 0 10px;
+}
+.col-1_row-1 {
+  flex-basis: 100%;
+  background: #fff;
+  height: 198px;
+  margin: 0 10px 0 0;
+  width: 335px;
+}
+.col-1_row-1 > a {
+  text-decoration: none;
+}
+.col-1_title {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #00283a;
+  text-align: center;
+  /* letter-spacing: 0.05px; */
+  font-family: "Open Sans Condensed";
+}
+.sign_in_button {
+  margin: 20px 40px 15px;
+  padding: 5.5px 5px;
+  background-color: #f39834;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.sign_in_button:hover {
+  background-color: #c60;
+}
+.sign_up_text {
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+.col-1_row-2 {
+  flex-basis: 100%;
+  background: #fff;
+  height: 198px;
+  margin: 10px 0 0 0;
+}
+.col-1_row-2_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* sub column for col 1 row 2 */
+.col-1_sub_col {
+  margin-top: 15px;
+}
+.col-1_sub_col_img {
+  max-width: 135.5px;
+  height: 90.5px;
+}
+
+.sub_col_title {
+  padding-top: 10px;
+  font-family: "Open Sans";
+  font-size: 12px;
+  color: #3c4a65;
+}
+.row-2_sub_col {
+  flex: 1;
+}
+.card_col-1_container {
+  display: flex;
+  flex-direction: column;
+  width: 335px;
+  margin-right: 10px;
+}
+.card_row_last {
+  display: flex;
+  min-width: 1400px;
+}
+.card_col_last:nth-child(1) {
+  flex: 1;
+  height: 406px;
+  max-width: 335px;
+  background: #fff;
+  margin-right: 10px;
+}
+.card_col_last:nth-child(2),
+.card_col_last:nth-child(3) {
+  flex: 1;
+  height: 406px;
+  max-width: 335px;
+  background: #fff;
+  margin: 0 10px;
+}
+.col-4_row-2_container {
+  flex: 1;
+  height: 406px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* LAST CARD 1ST ROW START */
+.card_last_row-1 {
+  flex-basis: 100%;
+  background: #fff;
+  height: 198px;
+  margin-bottom: 5px;
+  width: 335px;
+}
+.card_heading {
+  color: #00283a;
+  font-size: 20px;
+  margin: 15px 0 10px 20px;
+}
+
+/* COL 4 ROW 2 Container */
+.row-2_sub_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* LAST COL Image */
+.last_sub_row-1_image {
+  object-fit: cover;
+  height: 118px;
+  width: 118px;
+  margin-left: 20px;
+}
+.custom_img-1 {
+  height: 90px;
+}
+.card_prev_price {
+  padding-top: 20px;
+  text-align: right;
+  padding-right: 20px;
+  text-decoration: line-through;
+  color: #7d7a7a;
+}
+.card_new_price {
+  font-family: "Open Sans";
+  font-size: 24px;
+  padding-right: 20px;
+  text-align: right;
+  color: #222222;
+  margin-top: -10px;
+}
+.card_last_row-2 {
+  flex-basis: 100%;
+  background: #fff;
+  height: 198px;
+  margin-top: 5px;
+  width: 335px;
+}
+
+/* COL 4 ROW 2 Start */

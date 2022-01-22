@@ -1,0 +1,3 @@
+export const COUPON_REQUEST = "COUPON_REQUEST";
+export const COUPON_SUCCESS = "COUPON_SUCCESS";
+export const COUPON_FAIL = "COUPON_FAIL";

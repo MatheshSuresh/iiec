@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,800;1,800&display=swap");
+:root {
+  --dark: #00bd9d;
+  --light: #8bd7d2;
+  --white: #fffbfa;
+  --clr-primary: #f39834;
+  --clr-dark: #000000;
+  --clr-light: #f92c8b;
+  --clr-light-border: #dbdbdb;
+  --clr-btn-hover: #bebebe;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-black: 900;
+  --fw-mb-bold: ;
+  --font-normal: 1rem;
+  --btn-hover: #cc6600;
+  --mb-side-space: 1.25rem;
+  --box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  --webkit-box-shadow: -0 0 15px -10px rgba(0, 0, 0, 0.75);
+  --moz-box-shadow: -1px 2px 10px 1px rgba(123, 123, 123, 0.5) 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+body {
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+main {
+  height: auto;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+}
+
+/*  Filter Switching Button In product list page*/
+.custom-switch {
+  /* margin: 0 20px 0 0; */
+  border: none;
+  width: 62px;
+  height: 29px;
+  padding: 0 20px;
+}
+
+.custom-switch .custom-control-label::before {
+  content: "OFF";
+  border: none;
+  text-align: center;
+  padding-left: 25px;
+  padding-top: 2px;
+  font-size: 14px;
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
+  width: 62px;
+  height: 29px;
+  background-color: #eeeeee;
+  border-radius: 0;
+}
+.custom-switch .custom-control-label::after {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 0;
+  /* top: 0;
+  left: 0; */
+  margin: 0;
+  padding: 0;
+}
+.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
+  background-color: #fff;
+  transform: translateX(2rem);
+  content: "";
+}
+.custom-switch .custom-control-input:checked ~ .custom-control-label::before {
+  content: "";
+}
+
+/* Accordian Product list page */
+.accordion-item {
+  border-top: 1px solid var(--clr-light-border);
+  padding-left: 20px;
+}
+.accordion-button {
+  border: none;
+  background-color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Cart Empty Message */
+.alert-dark-container {
+  margin-top: 18px;
+  margin-right: 40px;
+}
+.alert-dark {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #e1b06a;
+  border-right: 15px solid #e1b06a;
+  font-size: 16px;
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
+  /* display: none; */
+}
+
+/* Delete user modal */
+.delete_user_modal_container {
+  /* height: 200px;
+  width: 200px; */
+  /* position: relative; */
+  /* display: none; */
+}
+#hiji {
+  /* display: none;"*/
+  /* position: absolute; */
+}
+#biji {
+  right: 0 !important;
+}
+.modal {
+  right: 0 !important;
+}
+.hijibiji {
+  position: absolute !important;
+  right: 0 !important;
+  display: none;
+}
+.cart_modal {
+  background-color: #fff;
+  width: 420px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="text"] {
+  -webkit-appearance: auto;
+}
+
+.bold {
+  font-size: 14px;
+  font-weight: 700;
+  z-index: 1001;
+  color: #000;
+}
+
+/* order Screen status process light to dark */
+.active_status {
+  color: #000;
+}
+
+.review_button {
+  margin-top: 20px;
+  background-color: #f39834;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 4px;
+  /* color: #fff; */
+  font-family: "Open Sans Condensed";
+  letter-spacing: 1px;
+}
+.dropdown_hide {
+  display: hide;
+}
+.dropdown_show {
+  display: block;
+}

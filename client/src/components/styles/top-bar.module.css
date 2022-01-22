@@ -1,0 +1,25 @@
+.top_bar {
+  font-size: 13px;
+  border-bottom: 1px solid var(--clr-light-border);
+}
+.container {
+  min-height: 36px;
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.top_bar_left {
+  display: flex;
+  justify-content: center;
+}
+.top_bar_content:nth-child(2) {
+  padding-left: 10px;
+}
+.top_bar_content a {
+  color: #000;
+}
+.top_bar_icons {
+  color: rgb(240, 38, 38);
+}

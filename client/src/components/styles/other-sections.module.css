@@ -1,0 +1,120 @@
+.cook_look_section {
+  margin-top: 120px;
+}
+.title {
+  /* font-family: "Open Sans Condensed";
+  font-size: 32px;
+  font-weight: 300;
+  padding-top: 40px;
+  letter-spacing: 1px;
+  text-align: center; */
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: #015360;
+}
+.col {
+  margin: 0 20px;
+}
+.cool_image_container {
+  position: relative;
+}
+.cool_image {
+  width: 260px;
+  height: 347px;
+}
+.cool_content_container {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+.content_title {
+  color: #015360;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: -28px;
+}
+.content_title_2nd_line {
+  font-size: 18px;
+  font-weight: 700;
+  color: #015360;
+  margin-top: -20px;
+}
+.money_sign {
+  color: #015360;
+  font-size: 24px;
+  font-weight: 600;
+}
+.price {
+  color: #015360;
+  font-family: "Work Sans";
+  font-size: 34px;
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* Contactless Section */
+.con_container {
+  max-width: 1160px;
+  margin: 100px auto 20px;
+}
+.con_row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.con_col {
+  margin: 0 20px;
+}
+.contactless_img {
+  width: 568px;
+  height: 140px;
+}
+.contactless_content {
+  font-size: 14px;
+  font-weight: 300;
+  color: #000;
+  text-align: center;
+}
+
+/* Convid Aawareness Section */
+.covid_info_container {
+  position: relative;
+}
+.awareness_img {
+  height: 357px;
+  width: 357px;
+}
+.covid_row {
+  display: flex;
+}
+.covid_col {
+  margin: 0 20px;
+}
+.covid_info_content {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+}
+.main_title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 0 20px;
+  color: #fff;
+}
+.sub_title {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 30px;
+}

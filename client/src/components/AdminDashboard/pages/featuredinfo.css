@@ -1,0 +1,47 @@
+.admin_featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.admin_featuredItem {
+  flex: 1;
+  margin: 0 20px;
+  padding: 30px;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+  -webkit-box-shadow: var(--box-shadow);
+  -moz-box-shadow: var(--box-shadow);
+}
+.admin_featuredTitle {
+  font-family: "Open Sans Condensed";
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.admin_featured_money_container {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.admin_featuredMoney {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+.admin_featuredMoneyRate {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.admin_featured_icons {
+  font-size: 14px;
+  margin-left: 5px;
+  color: green;
+}
+.admin_featured_icons.negative {
+  color: red;
+}
+.admin_featured_subtitle {
+  font-size: 15px;
+  color: grey;
+}

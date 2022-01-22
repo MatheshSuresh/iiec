@@ -1,0 +1,43 @@
+.admin_side_bar {
+  flex: 2;
+  height: calc(100vh - 50px);
+  background-color: rgb(224, 58, 58);
+  position: sticky;
+  top: 50px;
+  min-width: 350px;
+  
+}
+.admin_side_bar_wrapper {
+  padding: 20px;
+  color: #555;
+  width: 350px;
+}
+.admin_side_bar_menu {
+  margin-bottom: 10px;
+}
+.admin_side_bar_title {
+  letter-spacing: normal;
+  color: #555;
+  font-size: 16px;
+}
+.admin_side_bar_list {
+  
+  list-style: none;
+  padding: 5px;
+}
+.admin_side_bar_item {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.admin_side_bar_item.active,
+.admin_side_bar_item:hover {
+  background-color: rgb(240, 240, 250);
+}
+.admin_side_bar_icons {
+  margin-right: 5px;
+  font-size: 20px !important;
+}

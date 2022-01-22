@@ -1,0 +1,204 @@
+.place_order_left {
+  padding-bottom: 150px;
+}
+/* Checkout Summary Right Side */
+.checkout_promo_collapse_off {
+  height: 450px;
+}
+.checkout_promo_collapse_on {
+  max-height: 480px;
+}
+.checkout_cart_summary_container {
+  flex: 1;
+  /* margin-left: 20px; */
+  max-height: 500px;
+  background-color: #fff;
+}
+
+/* Place Order button */
+.place_order_btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.place_order_button {
+  margin: 20px 20px;
+  min-width: 270px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #f39834;
+  font-family: "Open Sans Condensed";
+  font-size: 15px;
+  font-weight: 700;
+}
+.place_order_button:hover {
+  background-color: #c60;
+}
+.place_order_button_icon {
+  font-size: 16px !important;
+}
+
+/* Shipping address summary */
+.checkout_shipping_summary_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border: 1px solid var(--clr-light-border);
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.checkout_shipping_summary_content {
+  /* display: flex; */
+  margin: 20px 20px;
+}
+.checkout_shipping_person_name {
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.checkout_shipping_person_detail {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+.checkout_shipping_summary_edit_btn {
+  margin: 20px 20px;
+}
+.checkout_shipping_summary_btn {
+  border: none;
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
+  font-size: 13px;
+  padding: 5px 20px;
+  margin-right: 40px;
+}
+
+.checkout_shipping_summary_btn:hover {
+  background-color: #bebebe;
+}
+
+/* Payment Summary  */
+.checkout_payment_summary_container {
+  background-color: #fafafa;
+  padding: 20px 80px 30px 31px;
+  margin-top: 24px;
+  margin-bottom: 62px;
+}
+.checkout_payment_text {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.checkout_payment_summary_change_btn {
+  display: flex;
+  justify-content: end;
+}
+
+.checkout_payment_form_container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.checkout_payment_label {
+  display: block;
+}
+.checkout_payment_phone_input {
+  width: 300px;
+  margin-bottom: 20px;
+}
+.checkout_payment_summary_img {
+  height: 90px;
+  width: 90px;
+}
+
+.checkout_payment_summary_btn {
+  border: none;
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
+  font-size: 13px;
+  padding: 5px 25px;
+  margin-right: 40px;
+}
+
+.checkout_payment_summary_btn:hover {
+  background-color: #bebebe;
+}
+
+/* .payment_form_submit_btn {
+  margin: 0 0;
+  min-width: 100px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #f39834;
+  font-family: "Open Sans Condensed";
+  font-size: 15px;
+  font-weight: 700;
+} */
+/* checkout Order product summary */
+
+.checkout_order_summary_edit_change_btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.summary_edit_change {
+  border: none;
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
+  font-size: 13px;
+  padding: 5px 25px;
+  margin-right: 40px;
+}
+.summary_edit_change:hover {
+  background-color: #bebebe;
+}
+
+.checkout_order_summary_container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.checkout_order_summary_row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.checkout_order_summary_col-1 {
+  flex: 84;
+}
+.checkout_order_summary_col-2 {
+  flex: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkout_order_summary_col-3 {
+  flex: 180;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* img product */
+.checkout_order_summary_img {
+  height: 60px;
+  width: 60px;
+  object-fit: contain;
+  /* border-radius: 50%; */
+}
+.checkout_order_summary_product_title {
+  font-weight: 600;
+  font-size: 13px;
+  padding-right: 10px;
+}
+.checkout_order_summary_product_price {
+  font-weight: 700;
+  font-size: 16px;
+}
+.grey {
+  color: rgb(170, 167, 167);
+}

@@ -1,0 +1,81 @@
+.checkout_progress_bar {
+  background-color: #f4f5f7;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.progress_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.title {
+  flex: 1;
+  font-size: 20px;
+  font-weight: 700;
+}
+.progress_bar_container {
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 241px;
+  margin-left: 0px;
+}
+.progress_text {
+  margin-left: 18px;
+}
+.progress_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.progress_number {
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--clr-light-border);
+}
+
+.edit_btn {
+  border: none;
+  font-size: 14px;
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
+  /*  */
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 8px 1em;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background: #fff;
+  color: #222;
+  font: 700 14px/1 Open Sans Condensed, Arial Narrow, Helvetica Narrow, arial,
+    helvetica, sans-serif;
+  font-stretch: condensed;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.bar_deactive {
+  opacity: 0.5;
+}
+.light {
+  font-weight: 400;
+  font-size: 18px;
+}

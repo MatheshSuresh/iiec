@@ -1,0 +1,261 @@
+.wrapper {
+  background-color: #f4f5f7;
+  min-height: 100vh;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 50px;
+}
+.left_container {
+  min-width: 1045px;
+}
+.main_title_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total_item_container {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.light {
+  font-weight: 400;
+}
+.icon {
+  font-size: 20px !important;
+}
+.remove_all_btn {
+  background-color: #f4f5f7;
+  border: none;
+  font-family: "Open Sans Condensed";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-right: 20px;
+}
+.row {
+  background-color: #fff;
+  margin-top: 20px;
+  display: flex;
+  margin-right: 20px;
+  min-height: 200px;
+  align-items: center;
+}
+.col_1 {
+  flex: 1;
+}
+.img_container {
+  padding-left: 20px;
+}
+.img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  padding-left: 20px;
+  margin-left: 30px;
+}
+.sub_row_1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_name {
+  width: 400px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.qty {
+  height: 31px;
+  width: 55px;
+  text-align: center;
+}
+.stock {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.product_price {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 40px;
+}
+
+.col_2 {
+  flex: 2.89;
+}
+
+.sub_row_2 {
+  display: flex;
+  justify-content: space-between;
+}
+.wish_list_btn {
+  border: none;
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
+  font-size: 13px;
+  padding: 5px 15px;
+}
+.wish_list_btn:hover,
+.remove_product_btn:hover {
+  background-color: rgb(190, 190, 190);
+}
+.remove_product_btn {
+  border: none;
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
+  font-size: 13px;
+  padding: 5px 15px;
+  margin-right: 40px;
+}
+
+/* Cart Summery */
+.right_container {
+  flex: 1;
+  background-color: #fff;
+  margin-top: 50px;
+  max-width: 335px;
+}
+
+.cart_title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 20px;
+}
+.cart_item {
+  display: flex;
+  justify-content: space-between;
+}
+.light_text {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.items_price {
+  margin-right: 22px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.cart_delivery {
+  display: flex;
+  justify-content: space-between;
+}
+.delivery_text {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.cart_tax {
+  display: flex;
+  justify-content: space-between;
+}
+.tax_text {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.promo_section {
+  border-top: 1px solid var(--clr-light-border);
+  border-bottom: 1px solid var(--clr-light-border);
+  margin-top: 40px;
+}
+.promo_1st_part {
+  display: flex;
+  justify-content: space-between;
+
+  /* margin: 10px 0; */
+  padding: 10px 0;
+}
+.promo_plus_btn {
+  font-family: 50px;
+  cursor: pointer;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+.promo {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+}
+.promo_input {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.plus_icon {
+  font-size: 30px !important;
+}
+.active_promo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.promo_apply_btn {
+  background-color: #fff;
+  border: none;
+  border: 1px solid var(--clr-light-border);
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.total_price_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.total_price_text {
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.total_price_value {
+  margin-right: 20px;
+  font-size: 26px;
+  font-family: "Open Sans Condensed";
+  font-weight: 700;
+}
+
+.checkout_container {
+  display: flex;
+  justify-content: center;
+}
+.secure_payment {
+  margin: 40px 20px;
+  min-width: 270px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #f39834;
+  font-family: "Open Sans Condensed";
+  font-size: 15px;
+  font-weight: 700;
+}
+.secure_payment:hover {
+  /* background-color: #c60; */
+}
+.arrow_icon {
+  font-size: 16px !important;
+}
+
+/* Toggle promo btn */
+.hide {
+  display: none;
+}
+.show {
+  display: flex;
+  margin: 20px 0 30px;
+}
+
+.grey {
+  color: rgb(170, 167, 167);
+}

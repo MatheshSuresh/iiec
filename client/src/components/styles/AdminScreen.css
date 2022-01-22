@@ -1,0 +1,9 @@
+.admin_container {
+  display: flex;
+  /* margin-top: 10px; */
+}
+
+.others {
+  background-color: darkcyan;
+  flex: 4;
+}

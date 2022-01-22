@@ -1,0 +1,62 @@
+.admin_order_detail {
+  width: 100%;
+}
+
+.admin_order_detail_wrapper {
+  /* background-color: #fff; */
+}
+
+.admin_order_status_container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.admin_order_status {
+  flex: 2;
+}
+.admin_status {
+  color: grey;
+  font-weight: 600;
+}
+.admin_status_value {
+  padding-left: 10px;
+  font-weight: 700;
+  color: red;
+}
+.order_select_container {
+  display: flex;
+  align-items: center;
+}
+.order_admin_form {
+    margin-right: 20px;
+  /* margin-left: 150px; */
+}
+.order_admin_select {
+  width: 180px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.admin_order_options {
+  font-size: 14px;
+}
+.admin_order_submit_btn {
+  /* margin-right: 80px; */
+}
+
+.admin_order_submit_btn_container {
+  display: flex;
+  align-items: center;
+}
+.admin_order_submit_btn {
+  border: none;
+  padding: 8px 25px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+optgroup {
+  font-size: 14px;
+}

@@ -1,0 +1,2 @@
+export const RESPONSIVE_MARGIN = "RESPONSIVE_MARGIN";
+export const DROPDOWN = "DROPDOWN";

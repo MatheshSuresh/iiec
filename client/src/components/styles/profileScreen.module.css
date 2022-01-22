@@ -1,0 +1,170 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.row {
+  margin-top: 50px;
+  display: flex;
+}
+.col_1 {
+  flex: 1;
+  border-right: 1px solid var(--clr-light-border);
+}
+.col_2 {
+  flex: 5.43;
+  margin-left: 30px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 20px 0 10px 0;
+}
+
+.sub_title {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 0 5px 0;
+}
+
+.main_title {
+  font-family: "Open Sans Condensed";
+  font-size: 32px;
+  font-weight: 300;
+  color: #000;
+}
+.user_info_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.field_name {
+  color: grey;
+  font-size: 13px;
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+  padding-left: 50px;
+}
+.email {
+  font-size: 13px;
+  /* font-weight: 700; */
+  color: #000;
+  padding-left: 179px;
+  padding-top: 30px;
+}
+.phone {
+  font-size: 13px;
+  /* font-weight: 700; */
+  color: #000;
+  padding-left: 180px;
+  padding-top: 10px;
+}
+
+.btn {
+  background-color: #c4c4c4;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+
+.password_container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  /* height: 55px; */
+  border-top: 1px solid var(--clr-light-border);
+  border-bottom: 1px solid var(--clr-light-border);
+  padding: 8px 0;
+}
+
+.password {
+  font-size: 13px;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  color: #000;
+  font-weight: 700;
+  padding-left: 120px;
+}
+
+.verify_container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--clr-light-border);
+  padding: 8px 0;
+}
+
+.verification {
+  color: gray;
+  font-size: 13px;
+}
+.security {
+  padding-left: 64px;
+  color: #000;
+  font-weight: 700;
+}
+
+.btn_2 {
+  background-color: #c4c4c4;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 25px;
+  border-radius: 4px;
+}
+
+/* tracking order searching box */
+.search_form input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  /* margin: 8px 0; */
+  box-sizing: border-box;
+}
+.header_icon_content {
+  position: relative;
+}
+.header_icon_content:nth-child(1) {
+  padding-right: 25px;
+}
+.header_icon_content svg {
+  margin-right: 5px;
+  font-size: 30px;
+}
+
+.header_search_button__2y8G5 {
+  padding: 0;
+}
+.search_form {
+  display: flex;
+  height: 40px;
+}
+.search_button {
+  border: none;
+  width: 90px;
+  background-color: #000;
+  height: inherit;
+  height: 39.7px !important;
+  border-top-right-radius: 6px 6px;
+  border-bottom-right-radius: 6px 6px;
+}
+
+.search_icon {
+  color: #fff;
+  border: none;
+  min-height: 40px;
+  font-size: 35px !important;
+}
+
+.search_box {
+  padding-top: 20px;
+}
