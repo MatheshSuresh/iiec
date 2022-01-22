@@ -146,7 +146,7 @@ const OverviewSection = ({ match }) => {
               Return for replacement within: 30 days
             </div>
             <div className={styles.content}>
-              This item is covered by frstore.com's Standard Return Policy
+              This item is covered by IIEC.com's Standard Return Policy
             </div>
           </div>
           <div className={styles.col}>
